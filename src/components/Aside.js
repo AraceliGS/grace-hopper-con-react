@@ -1,4 +1,6 @@
 import React from 'react';
+import GraceHopper from './assets/images/Grace Hopper.jpg' 
+import './Aside.css';
 
 class Aside extends React.Component {
   render() {
@@ -7,13 +9,13 @@ class Aside extends React.Component {
         <table className='summary-table'>
           <thead>
             <tr>
-              <th colSpan='2'>Grace Murray Hopper</th>
+              <th colSpan={2}>Grace Murray Hopper</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td colSpan='2'>
-                <img src='assets/images/Grace Hopper.jpg' alt='Grace Hopper'/>
+              <td colSpan={2}>
+                <img src={GraceHopper} alt='Grace Hopper'/>
                 <p>Rear Admiral Grace M. Hopper, 1984</p>
                 <hr/>
               </td>

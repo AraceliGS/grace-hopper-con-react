@@ -1,4 +1,5 @@
 import React from 'react';
+import './Main.css';
 import List from './List.js';
 import Phrase from './Phrase.js';
 
