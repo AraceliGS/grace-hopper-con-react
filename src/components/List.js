@@ -5,10 +5,9 @@ class List extends React.Component {
     const career = ['World War II', 'UNIVAC', 'COVOL', 'Standars'];
     return(
       <ol>
-        <li>World War II</li>
-        <li>UNIVAC</li>
-        <li>COVOL</li>
-        <li>Standars</li>
+        {career.map((el, index) => {
+          return <li key={index}>{el}</li>
+        })}
       </ol>
     )
   }
